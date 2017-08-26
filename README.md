@@ -34,3 +34,12 @@ This is getting started with express and react
 11. Now open your app -
 
         `heroku open`
+12. Follow-up deployment -
+        
+        `git status
+         git add . 
+         git commit -m "changed message"
+         git push (to your git repo)
+         git push heroku master (for heroku master repository)
+         heroku logs (to verify if there any error occurs)
+        `
